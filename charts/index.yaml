@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  keycloak-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T19:38:07.9008627+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 70fd3296e5b6add9a56fe33a8552dd6dc8b0eab177bae008faca3421a821cef8
+    name: keycloak-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/keycloak-helm-chart-0.1.0.tgz
+    version: 0.1.0
   vault-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-10T19:19:37.861757+03:00"
+    created: "2023-09-10T19:38:07.902815+03:00"
     description: A Helm chart for Kubernetes
     digest: 5e068119315fe67bfd2b76ef6c6ee1d9b7da88b7f5c3a39281b6a7dc24897948
     name: vault-helm-chart
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://carakazov.github.io/notes-project-helm-charts/charts/vault-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-10T19:19:37.8602646+03:00"
+generated: "2023-09-10T19:38:07.8998846+03:00"
