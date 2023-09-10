@@ -1,9 +1,53 @@
 apiVersion: v1
 entries:
+  config-server-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7256579+03:00"
+    description: A Helm chart for Kubernetes
+    digest: b9778c1237e8d7c42a3af6d3181256334a30cead18ace1c763a155350c06f38b
+    name: config-server-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/config-server-helm-chart-0.1.0.tgz
+    version: 0.1.0
+  file-system-ms-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7275364+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 6aef3e3399471df54e8bc24b0e04b36191add8ff691aee46caecc8e1d39d4bcc
+    name: file-system-ms-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/file-system-ms-helm-chart-0.1.0.tgz
+    version: 0.1.0
+  ingress-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7291784+03:00"
+    description: A Helm chart for Kubernetes
+    digest: f3b744e90dfbc4638a429436af4e7cd686c99df20df48e497e3c459354eacb16
+    name: ingress-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/ingress-helm-chart-0.1.0.tgz
+    version: 0.1.0
+  kafka-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7427202+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 4c5e5d77b39e7a23c8a9cc186ea0a4ce2f48ed095d7421d33ee48f8ce7cfcf4d
+    name: kafka-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/kafka-helm-chart-0.1.0.tgz
+    version: 0.1.0
   keycloak-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-10T19:38:07.9008627+03:00"
+    created: "2023-09-10T21:59:18.7558302+03:00"
     description: A Helm chart for Kubernetes
     digest: 70fd3296e5b6add9a56fe33a8552dd6dc8b0eab177bae008faca3421a821cef8
     name: keycloak-helm-chart
@@ -11,10 +55,65 @@ entries:
     urls:
     - https://carakazov.github.io/notes-project-helm-charts/charts/keycloak-helm-chart-0.1.0.tgz
     version: 0.1.0
+  logic-ms-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7589117+03:00"
+    description: A Helm chart for Kubernetes
+    digest: b7550bc4a37f85c1272695612f66aae3ed25b2cd4b070385259a8caae6a6117f
+    name: logic-ms-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/logic-ms-helm-chart-0.1.0.tgz
+    version: 0.1.0
+  notes-admin-front-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7608653+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 9ecc95ec2ee691ed3c3ab2eb172855ee86f482cc3b998744b9e0a9b346802840
+    name: notes-admin-front-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/notes-admin-front-helm-chart-0.1.0.tgz
+    version: 0.1.0
+  rabbitmq-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7642726+03:00"
+    description: A Helm chart for Kubernetes
+    digest: cc7cf4312b08ed8a9f9e83d453416b2b96c21caafb6da31b2e6ba913e2a9d56a
+    name: rabbitmq-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/rabbitmq-helm-chart-0.1.0.tgz
+    version: 0.1.0
+  registration-ms-front-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7653924+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 48414196d3e641aeb77642aec53730666eabe8c5c619d2bfc83669918f799103
+    name: registration-ms-front-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/registration-ms-front-helm-chart-0.1.0.tgz
+    version: 0.1.0
+  registration-ms-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7677406+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 90c7fe808c02ad8424c7fcbe2b32615d048bcbaaff12fc370415d67a4a2b56fc
+    name: registration-ms-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/registration-ms-helm-chart-0.1.0.tgz
+    version: 0.1.0
   vault-helm-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-09-10T19:38:07.902815+03:00"
+    created: "2023-09-10T21:59:18.7709237+03:00"
     description: A Helm chart for Kubernetes
     digest: 5e068119315fe67bfd2b76ef6c6ee1d9b7da88b7f5c3a39281b6a7dc24897948
     name: vault-helm-chart
@@ -22,4 +121,15 @@ entries:
     urls:
     - https://carakazov.github.io/notes-project-helm-charts/charts/vault-helm-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2023-09-10T19:38:07.8998846+03:00"
+  zookeeper-helm-chart:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-09-10T21:59:18.7879639+03:00"
+    description: A Helm chart for Kubernetes
+    digest: cd7109ba0deef2d7ddc86665a89c0357c6a9e9152ceab609e6a9201108fd5ec4
+    name: zookeeper-helm-chart
+    type: application
+    urls:
+    - https://carakazov.github.io/notes-project-helm-charts/charts/zookeeper-helm-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-09-10T21:59:18.7127773+03:00"
